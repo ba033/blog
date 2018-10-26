@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="de">
+    <head>
+        <meta charset="utf-8">
+<title>
+    Login
+</title>
+        <style>
+
+            body {
+                background-image:url("68.jpg");
+                color: white;
+            }
+            #machlila {
+
+                height: 100px;
+                color: white;
+                font-size:60px;
+                font-family:Phosphate;
+                padding-left: 40%;
+                background-attachment: fixed;
+                border: 3px;
+                border-radius: 10px;
+                border: white;
+                border-style: solid ;
+
+            }
+            #machlila:hover{
+                color: seagreen;
+            }
+
+            #erster {
+                padding-left: 30px;
+                margin: 100px;
+                top: 20%;
+            }
+
+            #zweiter {
+                font-family:arial;
+                border: 3px;
+                border-radius: 10px;
+                border: white;
+                border-style: solid ;
+                hight: 100px;
+                width: 170px;
+                margin-left: 35%;
+                padding: 10px;
+            }
+
+            #footer {
+                height: 50px;
+                color: white;
+                font-size:15px;
+                font-family:Arial;
+                background-attachment: fixed;
+                margin-top: 90%;
+                margin-left: 40%;
+            }
+
+        </style>
+</head>
+<body>
+
+<h1 id="machlila">Login</h1><br>
+
+<form id="erster" method="POST" action="do_login.php"><br>
+
+    <div id="zweiter">
+    Username: <input type="text" name="name" placeholder="name"><br>
+    Passwort: <input type="password" name="password" placeholder="passwort"><br>
+    <br>
+    <input type=submit name=submit value="Einloggen">
+    </div>
+
+</form>
+
+
+<div id="footer">
+    Impressum © Hochschule der Medien
+</div>
+    </body>
+
+</html>
+
